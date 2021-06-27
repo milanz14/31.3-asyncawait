@@ -31,7 +31,7 @@ async function getFactsOnFavNumber(number) {
         let fact = res.data;
 
         let factContainer = document.createElement('li')
-        factContainer.innerHTML = `${fact}`
+        factContainer.innerText = `${fact}`
         
         listContainer.append(factContainer)
     }
